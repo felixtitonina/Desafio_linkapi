@@ -7,7 +7,7 @@ mongoose.connect(process.env.DB_STRING, {
     useUnifiedTopology: true,
     useCreateIndex: true,
 }).then((data) => {
-    console.log('Conectado', data.connection.readyState)
+    console.log('Conexao mongoDB', data.connection.readyState)
 })
     .catch((error) => console.log('Erro de conexao', error))
 
