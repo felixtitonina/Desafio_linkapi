@@ -52,7 +52,7 @@ module.exports = {
             return res.status(200).json(ret)
 
         } catch (error) {
-            res.send(error.stack)
+            return res.status(500).json(error.stack)
 
         }
     }

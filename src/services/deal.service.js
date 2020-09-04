@@ -1,13 +1,13 @@
-const DealModel = require('../models/deals.schema')();
+const DealModel = require('../models/deals.schema')()
 
 module.exports = {
 
     async registerDeal(orders) {
-        const insertDeal = await orders.map(async (order) => {
+        const ret = await orders.map(async (order) => {
             await DealModel.create(order)
         }
         )
-        return insertDeal
+        return ret
     },
 
     async consolidated(page, limit, wonTime, numero, idPedido) {

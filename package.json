@@ -1,9 +1,10 @@
 {
-  "name": "Desafio LinkApi",
+  "name": "Desafio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "apidoc": {
+    "name": "Desafio LinkApi",
     "title": "API",
     "url": "http://localhost:5000/",
     "version": "0.0.1",
