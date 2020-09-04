@@ -1,11 +1,11 @@
 {
-  "name": "Desafio_linkapi",
+  "name": "Desafio LinkApi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "apidoc": {
-    "title": "Soubank webhook",
-    "url": "http://localhost:5000",
+    "title": "API",
+    "url": "http://localhost:5000/",
     "version": "0.0.1",
     "order": [
       "Error",

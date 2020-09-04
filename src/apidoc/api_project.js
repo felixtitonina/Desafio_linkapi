@@ -1,6 +1,6 @@
 define({
-  "title": "Soubank webhook",
-  "url": "http://localhost:5000",
+  "title": "API",
+  "url": "http://localhost:5000/",
   "version": "0.0.1",
   "order": [
     "Error",
@@ -8,15 +8,15 @@ define({
     "PostTitleAndError",
     "PostError"
   ],
-  "name": "Desafio_linkapi",
+  "name": "Desafio LinkApi",
   "description": "",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2020-09-04T05:56:24.423Z",
-    "url": "https://apidocjs.com",
-    "version": "0.25.0"
+    "time": "2020-09-04T14:18:47.657Z",
+    "url": "http://apidocjs.com",
+    "version": "0.24.0"
   }
 });
