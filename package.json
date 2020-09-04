@@ -1,22 +1,35 @@
 {
-  "name": "Desafio_linkapi",
+  "name": "Desafio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "apidoc": {
+    "name": "Desafio LinkApi",
+    "title": "API",
+    "url": "http://localhost:5000/",
+    "version": "0.0.1",
+    "order": [
+      "Error",
+      "Define",
+      "PostTitleAndError",
+      "PostError"
+    ]
+  },
   "scripts": {
     "dev": "nodemon ./src/server.js",
-    "devi": "nodemon --inspect ./src/server.js",
+    "devi": "nodemon --inspect ./src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0",
+    "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsontoxml": "^1.0.1",
     "mongoose": "^5.10.2",
-    "mongoose-paginate": "^5.0.3"
+    "mongoose-paginate": "^5.0.3",
+    "request": "^2.88.2"
   }
 }

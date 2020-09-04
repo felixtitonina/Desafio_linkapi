@@ -13,7 +13,6 @@ module.exports = function () {
             organizationName: {
                 type: String,
             },
-
             valueOrder: {
                 type: Number,
             },
@@ -25,15 +24,6 @@ module.exports = function () {
     )
 
     DealsSchema.plugin(mongoosePaginate)
-
-    DealsSchema.statics.save = function (obj) {
-        let schema = new schemaModel()
-        for (let _prop in obj) {
-            schema[_prop] = obj[_prop]
-        }
-        return schema.save()
-    }
-
 
     let schemaModel = mongoose.model('deals-model', DealsSchema)
 
