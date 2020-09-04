@@ -126,7 +126,7 @@
 
 
      /**
-     * @api {get} pedidos  Consulta de consolidados de pedidos por data 
+     * @api {get} pedidos-findDate  Consulta de consolidados de pedidos por data 
      * @apiDescription Consulta consolidado
      * @apiGroup Integração do PipeDrive e Bling   
      * @apiExample {URL} Example usage:
